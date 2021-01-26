@@ -16,16 +16,51 @@
             <br>
             <input type="password" class="form-control" placeholder="Enter your password">
             <br>
-            <button class="btn btn-success">Entry</button>
+            <button id="login" class="btn btn-success">Entry</button>
         </div>
     </div>
-    
+    <div class="dashboard" id="dashboard">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                   <h5>Withdraw</h5>
+                   <h2>$<span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$<span id="currentBalance">1240</span></h2>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-m-6">
+            <div class="submit-area">
+                <h4>Deposit</h4>
+                <input type="text" class="form-control" placeholder="$ Dollar amount you want to deposit" id="depositAmount">
+                <br>
+                <button class="btn btn-success" id="addDeposit">Deposit</button>
+            </div>
+        </div>
+        <div class="col-m-6">
+            <div class="submit-area">
+                <h4>Withdraw</h4>
+                <input id="withdrawAmount" type="text" class="form-control" placeholder="$ Dollar amount you want ro withdraw">
+                <br>
+                <button class="btn btn-success" id="addWithdraw">Withdraw</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-
-
-
-
-
+<script src="script.js"></script>
 </body>
 </html>

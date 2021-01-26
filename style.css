@@ -8,3 +8,21 @@ body{
     box-shadow: 5px 5px 10px gray;
     padding: 45px;
 }
+#dashboard{
+    display: none;
+}
+.status{
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: royalblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
